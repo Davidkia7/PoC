@@ -13,8 +13,9 @@ Affected Assets
 3. Platform: Binance Smart Chain
 4. Contract Version: 1.0
 5. Contract Address: 0x92eD61FB8955Cc4e392781cB8b7cD04AADc43D0c
-6. Affected Asset Quantity: [Number of affected tokens]
-7. Asset Impact: Loss of token control, value degradation, or unauthorized usage.
+6. Link SC : https://etherscan.io/address/0x92eD61FB8955Cc4e392781cB8b7cD04AADc43D0c
+7. Affected Asset Quantity: [Number of affected tokens]
+8. Asset Impact: Loss of token control, value degradation, or unauthorized usage.
 
 Technical Details
 
