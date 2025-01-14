@@ -29,3 +29,14 @@ Recommendations
 2. Implement stronger anti-reentrancy mechanisms.
 3. Enhance input validation.
 4. Conduct thorough testing.
+
+```solidity
+pragma solidity ^0.8.9;
+
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello, World!";
+    }
+}
+
+
