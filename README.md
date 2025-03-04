@@ -1,42 +1,19 @@
-Vulnerability Description
+# Oggy Inu Price Manipulation PoC (Test JS)
 
-1. Vulnerability Name: Unsecured Direct Transfer
-2. Vulnerability Type: Smart Contract Vulnerability
-3. Severity: High
-4. Impact: Loss of digital assets or tokens
-5. Description: This vulnerability allows attackers to transfer tokens without proper validation, potentially leading to token or digital asset loss.
+Proof of Concept untuk menunjukkan manipulasi harga kecil pada kontrak "Oggy Inu" menggunakan tes JavaScript di Hardhat Network.
 
-Affected Assets
+## Deskripsi
+PoC ini menguji kemampuan pemilik untuk:
+- Menurunkan `swapTokensAtAmount` ke nilai kecil.
+- Melakukan transfer kecil untuk memicu `swapAndLiquify`.
+- Mengalihkan BNB pajak ke dompet pribadi.
 
-1. Asset Name: OGGY Token
-2. Asset Type: Digital Token (Cryptocurrency)
-3. Platform: Binance Smart Chain
-4. Contract Version: 1.0
-5. Contract Address: 0x92eD61FB8955Cc4e392781cB8b7cD04AADc43D0c
-6. Link SC : https://etherscan.io/address/0x92eD61FB8955Cc4e392781cB8b7cD04AADc43D0c
-7. Affected Asset Quantity: [Number of affected tokens]
-8. Asset Impact: Loss of token control, value degradation, or unauthorized usage.
+## Prasyarat
+- Node.js dan npm
+- Hardhat
 
-Technical Details
-
-1. The _transfer function (line 418) lacks anti-reentrancy validation.
-2. The transfer function (lines 405-412) lacks adequate input validation.
-3. Inadequate security library usage.
-
-Recommendations
-
-1. Update OpenZeppelin library to the latest version.
-2. Implement stronger anti-reentrancy mechanisms.
-3. Enhance input validation.
-4. Conduct thorough testing.
-
-```solidity
-pragma solidity ^0.8.9;
-
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello, World!";
-    }
-}
-
-
+## Instalasi
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/username/oggy-inu-price-manipulation-poc.git
+   cd oggy-inu-price-manipulation-poc
