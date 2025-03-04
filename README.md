@@ -13,7 +13,3 @@ PoC ini menguji kemampuan pemilik untuk:
 - Hardhat
 
 ## Instalasi
-1. Clone repositori:
-   ```bash
-   git clone https://github.com/username/oggy-inu-price-manipulation-poc.git
-   cd oggy-inu-price-manipulation-poc
